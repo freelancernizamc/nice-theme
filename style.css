@@ -8,7 +8,10 @@ Description: Nice theme is the First theme which is developed by Freelancer Niza
 Version: 1.0
 */
 
-
+@font-face{
+	font-family: myfont;
+	src: url('fonts/justicefighters.ttf')
+}
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 html, body{
@@ -38,11 +41,14 @@ header.main-header h1 a{
 	text-decoration:none;
 } 
 header.main-header h1{
+	font-family: myfont;
 	margin:0;
+	
 }
 header.main-header h3{
 	font-style:italic;
     text-align: center;
+	font-family:'Courier New', Courier, monospace;
     color:#a30a0a; 
     margin-top:0;
 }
@@ -148,6 +154,10 @@ header.main-header h3{
 .content_wrapper > .clear {
     clear:both;
     line-height:0;
+}
+h2::first-letter{
+	font-size: 25px;
+	color:#a30a0a;
 }
 
 /* Site Sidebar */

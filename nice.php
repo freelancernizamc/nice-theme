@@ -1,1 +1,1 @@
-<h2>Welcome to Nice Theme</h2>
+<h2 style="font-family: myfont, font-size:40px;">Welcome to Nice Theme</h2>
